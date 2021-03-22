@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/15ec4d483d.js" crossorigin="anonymous"></script>
+    <!-- Owl-carousel - CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <title>Playground Test</title>
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+            <nav class="navbar">
+                    <div class="logo">
+                        <img src="./images/logo-playground-white.png" alt="">
+                    </div>
+                    <i id="ham" class="fas fa-bars"></i>
+                    <ul class="nav-menu">
+                        <li class="nav-items">
+                            <a href="#we-are">we are</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#we-do">we do</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#careers">careers</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#contact">contact us</a>
+                        </li>
+                    </ul>             
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./images/slide-hello.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/slide-play.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/slide-circle.jpg" alt="">
+            </div>
+        </div>
+        <div class="hero-text">
+            <div class="grid-container">
+                <div class="hero-content">
+                    <h1>lorem ipsum.</h1>
+                    <p>
+                        Consectetur adipiscing elit.
+                        Nulla condimentum tortor sem,
+                        in semper nisl bibendum eu.
+                    </p>
+                </div>               
+            </div>          
+        </div>
+    </section>
+    <main>
+        <section class="cards">
+            <div class="grid-container">
+                <div class="cards-wrapper">
+                    <article class="card">
+                        <div class="card-title" id="card-1"></div>
+                        <div class="card-description">
+                            <p class="card-text">
+                                Aenean mollis dolor a mattis viverra. In hac habitasse platea dictumst. Curabitur tempus dui tortor, et bibendum lacus eleifend ut.
+                            </p>
+                        </div>
+                        <div class="footer-card black-bg">
+                            <button type="button">
+                                <span class="span-btn">read more</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-title" id="card-2"></div>
+                        <div class="card-description">
+                            <p class="card-text">
+                                Donec vitae augue tellus. Proin et urna sit amet metus fermentum dapibus non quis urna.
+                            </p>
+                        </div>
+                        <div class="footer-card black-bg">
+                            <button type="button">
+                                <span class="span-btn">read more</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-title" id="card-3"></div>
+                        <div class="card-description">
+                            <p class="card-text">
+                                Suspendisse vehicula, lectus sed molestie aliquam, arcu neque gravida lacus.
+                            </p>
+                        </div>
+                        <div class="footer-card black-bg">
+                            <button type="button">
+                                <span class="span-btn">read more</span>
+                            </button>
+                        </div>
+                    </article>
+                </div>             
+            </div>
+        </section>
+        <section class="banners">
+            <div id="we-are" class="banner">
+                <div class="banner-img">
+                    <img src="./images/banner-we-are.jpg" alt="">
+                </div>
+                <div class="banner-text black-bg">
+                    <div class="banner-text-container">
+                        <h2>we are.</h2>
+                        <p>
+                            Consectetur adipiscing elit.
+                            Nulla condimentum tortor sem.
+                        </p>
+                        <button class="white-btn">
+                            <span>the players</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="we-do" class="banner reverse">
+                <div class="banner-img">
+                    <img src="./images/banner-we-do.jpg" alt="">
+                </div>
+                <div class="banner-text white">
+                    <div class="banner-text-container right">
+                        <h2>we do.</h2>
+                        <p>
+                            Consectetur adipiscing elit.
+                            Nulla condimentum tortor sem.
+                        </p>
+                        <button class="black">
+                            <span>the players</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="careers" class="banner">
+                <div class="banner-img">
+                    <img src="./images/banner-carrers.jpg" alt="">
+                </div>
+                <div class="banner-text black-bg">
+                    <div class="banner-text-container">
+                        <h2>careers.</h2>
+                        <p>
+                            Consectetur adipiscing elit.
+                            Nulla condimentum tortor sem.
+                        </p>
+                        <button class="white-btn">
+                            <span>the positions</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tabs">
+            <div class="grid-container">
+                    <ul class="faq">
+                        <li  class="single-faq active" onclick="selectTab(event, 'a1')">                          
+                            Vestibulum at odio sit amet
+                            <i class="fas fa-chevron-right"></i>
+                        </li>
+                        <li  class="single-faq" onclick="selectTab(event, 'a2')">
+                            Sed vehicula neque
+                            <i class="fas fa-chevron-right"></i>
+                        </li>
+                        <li  class="single-faq" onclick="selectTab(event, 'a3')">
+                            Nulla id libero pretium
+                            <i class="fas fa-chevron-right"></i>
+                        </li>
+                    </ul>
+                    <div class="faq-content"></div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="grid-container">
+                <div class="form-wrapper">
+                    <div class="contacts-text">
+                        <h2 class="contact-title">contact us</h2>
+                        <ul class="contact-info">
+                            <li class="contact-item">Playground srl</li>
+                            <li class="contact-item">Via G. Mazzini 3/C, </li>
+                            <li class="contact-item">Cernusco Sul Naviglio (Milano)</li>
+                            <li class="contact-item"> -</li>
+                            <li class="contact-item">T +39 0240706003</li>
+                        </ul>
+                    </div>
+
+                    <form action="/" id="contact-form">
+                        <div class="name">
+                            <input id="name" type="text" placeholder="name">
+                            <input id ="last-name" type="text" placeholder="last name">
+                        </div>
+                        <div class="form-control">
+                            <input id="email" type="text" placeholder="email">
+                        </div>
+                        <div class="form-control">
+                            <textarea name="" id="message" cols="30" rows="10" placeholder="message"></textarea>
+                        </div>
+                        
+                        <div class="submit-row">
+                            <button id="validate" type="submit">
+                                send
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                            <div id="error" class="error-message hide"><p>ciao</p></div>
+                        </div>                      
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="grid-container">
+            <div class="footer-wrapper">
+                <img src="./images/logo-playground-white.png" alt="">
+                <ul class="center-nav">
+                    <li class="nav-items">
+                        <a href="">we are</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="">we do</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="">careers</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="">contact us</a>
+                    </li>
+                </ul>
+                <ul class="social-links">
+                    <li>
+                        <i class="fab fa-facebook-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin-in"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </footer>
+    <div class="cookies">
+        <p>
+            Our website uses cookies to improve your experience. To find out more about the cookies we use please see our Cookies Policy.
+        </p>
+        <button id="cookies-btn">ok</button>
+    </div>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl-carousel - JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- custom JS -->
+    <script src="app.js"></script>
+    <script>
+        // funzione display tab corrispondente
+        function selectTab(e, num) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("faq-text");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("single-faq");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(num).style.display = "block";
+        e.currentTarget.className += " active";
+      }
+    </script>
+</body>
+</html>
